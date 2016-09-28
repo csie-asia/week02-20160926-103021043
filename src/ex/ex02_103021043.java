@@ -11,13 +11,19 @@ public class ex02_103021043 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scn=new Scanner(System.in);
-		int x=scn.nextInt();
-		int y=scn.nextInt();
-		if (x>=-100 && x>=100){
-			
+		int x1=scn.nextInt();
+		int y1=scn.nextInt();
+		int x2=x1*x1;
+		int y2=y1*y1;
+		double z1=x2+y2;
+		double z2=Math.sqrt(z1);
+		if (z2>100){
+			System.out.println("out");
 		}
 		else {
-			
+	    if (z2<=100){
+	    	System.out.println("in");
+	    }
 		}	
 	}
 }

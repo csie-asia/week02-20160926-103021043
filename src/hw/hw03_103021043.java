@@ -6,12 +6,22 @@ package hw;
  * Date: 2016/09/26
  * Author: 103021043 何宙運
  */
-
+import java.util.Scanner;
 public class hw03_103021043 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+// TODO Auto-generated method stub
+		Scanner scn=new Scanner(System.in);
+		int a=scn.nextInt();
+	if(a%400==0){
+		System.out.println(a+"是閏年");
+	}else if(a%100==0){
+		System.out.println(a+"不是閏年");
 	}
-
+	else if(a%4==0){
+		System.out.println(a+"是閏年");
+	}
+	else{	
+	}
+	}
+	
 }

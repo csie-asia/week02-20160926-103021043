@@ -5,12 +5,27 @@ package hw;
  * Date: 2016/09/26
  * Author: 103021043 何宙運
  */
-
+import java.util.Scanner;
 public class hw02_103021043 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn=new Scanner(System.in);
+		int s=scn.nextInt();
+        int h=scn.nextInt();
+        float w = 0;
+		if(s==1){
+			w=(float) ((h-80)*0.7);
+		}
+		else if(s==2){
+			w=(float) ((h-70)*0.6);
+		}
+		else {
+			System.out.println("出錯");	
+		}
+		
+		
+	     System.out.println(w+" ");
 	}
 
-}
+		}
+
